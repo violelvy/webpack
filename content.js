@@ -4,4 +4,5 @@ function Content(params) {
     content.innerHTML = 'content'
     dom.append(content)
 }
-export default Content;
+// export default Content;
+module.exports = Content
