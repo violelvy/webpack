@@ -1,0 +1,9 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true, 
+  "scripts": {},
+  "author": "Violet",
+  "license": "ISC"
+}
