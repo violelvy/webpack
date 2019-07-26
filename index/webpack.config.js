@@ -6,7 +6,11 @@ module.exports = {
             {
                 test: /\.jpg$/,
                 use: {
-                    loader: 'file-loader'
+                    loader: 'file-loader',
+                    options: {
+                        // placeholder  占位符
+                        name: '[name].[ext]'   //新打包出来的图片名是之前图片名字。之前图片的后缀
+                    }
                 }
             }
         ]
